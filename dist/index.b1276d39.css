@@ -99,6 +99,7 @@ body {
 }
 
 .c-product-card {
+  color: var(--color-verydark-blue);
   background-color: var(--color-white);
   border-radius: 9px;
   flex-direction: column;
@@ -142,6 +143,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.875rem;
     display: grid;
+  }
+
+  .c-product-card {
+    max-width: 21.25rem;
   }
 
   .c-product-cards--1 {

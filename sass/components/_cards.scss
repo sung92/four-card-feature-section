@@ -20,6 +20,7 @@
 .c-product-card {
     max-width: f.rem(315px);
     padding: f.rem(25px);
+    color: var(--color-verydark-blue);
     background-color: var(--color-white);
     
     border-radius: 9px;
@@ -70,6 +71,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     
         gap: f.rem(30px);
+    }
+
+    .c-product-card {
+        max-width: f.rem(340px);
     }
 
     .c-product-cards--1 {
