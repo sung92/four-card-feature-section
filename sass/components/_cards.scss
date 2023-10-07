@@ -77,6 +77,10 @@
         max-width: f.rem(340px);
     }
 
+    .c-product-card__desc {
+        margin-top: f.rem(10px);
+    }
+
     .c-product-cards--1 {
         grid-column: 1 / 2;
         transform: translate(0, 50%);

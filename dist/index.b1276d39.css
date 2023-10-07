@@ -149,6 +149,10 @@ body {
     max-width: 21.25rem;
   }
 
+  .c-product-card__desc {
+    margin-top: .625rem;
+  }
+
   .c-product-cards--1 {
     grid-column: 1 / 2;
     transform: translate(0, 50%);
