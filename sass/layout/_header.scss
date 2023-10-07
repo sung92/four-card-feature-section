@@ -1,0 +1,47 @@
+@use "../abstracts/functions" as f;
+
+/**************************/
+/* HEADER */
+/**************************/
+
+header {
+    margin-top: f.rem(60px);
+    max-width: f.rem(325px);
+    text-align: center;
+    color: var(--color-verydark-blue);
+}
+
+.header-headings {
+    font-size: f.rem(24px);
+}
+
+.header-heading-1 {
+    font-weight: 200;
+}
+
+.header-heading-2 {
+    font-weight: 600;
+}
+
+.header-desc {
+    margin-top: f.rem(15px);
+    font-weight: 200;
+    color: var(--color-greyish-blue);
+    text-wrap: balance;
+}
+
+@media (width >= 50em) {
+    header {
+        max-width: f.rem(540px);
+        margin: 0 auto;
+    }
+
+    .header-headings {
+        font-size: f.rem(36px);
+    }
+
+    .header-desc {
+        margin-top: f.rem(18px);
+        text-wrap: pretty;
+    }
+}
